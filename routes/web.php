@@ -17,8 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('inspection', 'DashboardController@inspection');
-
 Route::get('/improvements', function () {
     return view('improvements');
 });

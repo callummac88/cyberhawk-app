@@ -23,6 +23,13 @@
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 
+    <style>
+    .highlight-red {
+        background:red!important;
+        color:white!important;
+    }
+    </style>
+
 </head>
 <body id="page-top">
 
